@@ -30,5 +30,5 @@ plt.axvline(num_people, lw=1, c='gray', ls='--')
 plt.box(on=False)
 st.pyplot(fig)
 
-st.write(f'''The probability that two (or more) people have the same birthday 
+st.subtitle(f'''The probability that two (or more) people have the same birthday 
              in a group of {num_people} people is {answer}%''')
