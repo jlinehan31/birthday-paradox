@@ -6,7 +6,7 @@ st.write('Created by Jonny Linehan - @jlinehan9')
 
 st.write('')
 
-num_people = st.slider('Number of People', min_value=2, max_value=100, 
+num_people = st.slider('Select Number of People', min_value=2, max_value=100, 
                        value=23, step=1)
 
 probability = 1
